@@ -1,0 +1,244 @@
+Model,Sampler,Parameters,Report
+GradientBoosting,RandomUnderSampler,"{'classifier__learning_rate': 0.01, 'classifier__max_depth': 3, 'classifier__n_estimators': 50}","              precision    recall  f1-score   support
+
+         0.0       0.98      0.81      0.88      5105
+         1.0       0.30      0.82      0.44       511
+
+    accuracy                           0.81      5616
+   macro avg       0.64      0.81      0.66      5616
+weighted avg       0.92      0.81      0.84      5616
+"
+GradientBoosting,RandomUnderSampler,"{'classifier__learning_rate': 0.01, 'classifier__max_depth': 3, 'classifier__n_estimators': 100}","              precision    recall  f1-score   support
+
+         0.0       0.97      0.81      0.89      5105
+         1.0       0.30      0.78      0.43       511
+
+    accuracy                           0.81      5616
+   macro avg       0.63      0.80      0.66      5616
+weighted avg       0.91      0.81      0.84      5616
+"
+GradientBoosting,RandomUnderSampler,"{'classifier__learning_rate': 0.01, 'classifier__max_depth': 3, 'classifier__n_estimators': 200}","              precision    recall  f1-score   support
+
+         0.0       0.97      0.82      0.89      5105
+         1.0       0.30      0.78      0.44       511
+
+    accuracy                           0.82      5616
+   macro avg       0.64      0.80      0.66      5616
+weighted avg       0.91      0.82      0.85      5616
+"
+GradientBoosting,RandomUnderSampler,"{'classifier__learning_rate': 0.01, 'classifier__max_depth': 5, 'classifier__n_estimators': 50}","              precision    recall  f1-score   support
+
+         0.0       0.98      0.81      0.89      5105
+         1.0       0.30      0.81      0.44       511
+
+    accuracy                           0.81      5616
+   macro avg       0.64      0.81      0.66      5616
+weighted avg       0.92      0.81      0.85      5616
+"
+GradientBoosting,RandomUnderSampler,"{'classifier__learning_rate': 0.01, 'classifier__max_depth': 5, 'classifier__n_estimators': 100}","              precision    recall  f1-score   support
+
+         0.0       0.97      0.83      0.89      5105
+         1.0       0.31      0.78      0.45       511
+
+    accuracy                           0.82      5616
+   macro avg       0.64      0.80      0.67      5616
+weighted avg       0.91      0.82      0.85      5616
+"
+GradientBoosting,RandomUnderSampler,"{'classifier__learning_rate': 0.01, 'classifier__max_depth': 5, 'classifier__n_estimators': 200}","              precision    recall  f1-score   support
+
+         0.0       0.97      0.82      0.89      5105
+         1.0       0.30      0.78      0.43       511
+
+    accuracy                           0.81      5616
+   macro avg       0.64      0.80      0.66      5616
+weighted avg       0.91      0.81      0.85      5616
+"
+GradientBoosting,RandomUnderSampler,"{'classifier__learning_rate': 0.01, 'classifier__max_depth': 7, 'classifier__n_estimators': 50}","              precision    recall  f1-score   support
+
+         0.0       0.97      0.82      0.89      5105
+         1.0       0.30      0.78      0.43       511
+
+    accuracy                           0.81      5616
+   macro avg       0.64      0.80      0.66      5616
+weighted avg       0.91      0.81      0.85      5616
+"
+GradientBoosting,RandomUnderSampler,"{'classifier__learning_rate': 0.01, 'classifier__max_depth': 7, 'classifier__n_estimators': 100}","              precision    recall  f1-score   support
+
+         0.0       0.98      0.81      0.89      5105
+         1.0       0.30      0.82      0.44       511
+
+    accuracy                           0.81      5616
+   macro avg       0.64      0.82      0.67      5616
+weighted avg       0.92      0.81      0.85      5616
+"
+GradientBoosting,RandomUnderSampler,"{'classifier__learning_rate': 0.01, 'classifier__max_depth': 7, 'classifier__n_estimators': 200}","              precision    recall  f1-score   support
+
+         0.0       0.98      0.81      0.88      5105
+         1.0       0.29      0.79      0.43       511
+
+    accuracy                           0.81      5616
+   macro avg       0.63      0.80      0.66      5616
+weighted avg       0.91      0.81      0.84      5616
+"
+GradientBoosting,RandomUnderSampler,"{'classifier__learning_rate': 0.1, 'classifier__max_depth': 3, 'classifier__n_estimators': 50}","              precision    recall  f1-score   support
+
+         0.0       0.98      0.81      0.89      5105
+         1.0       0.30      0.81      0.44       511
+
+    accuracy                           0.81      5616
+   macro avg       0.64      0.81      0.66      5616
+weighted avg       0.92      0.81      0.85      5616
+"
+GradientBoosting,RandomUnderSampler,"{'classifier__learning_rate': 0.1, 'classifier__max_depth': 3, 'classifier__n_estimators': 100}","              precision    recall  f1-score   support
+
+         0.0       0.98      0.81      0.89      5105
+         1.0       0.30      0.81      0.44       511
+
+    accuracy                           0.81      5616
+   macro avg       0.64      0.81      0.66      5616
+weighted avg       0.92      0.81      0.85      5616
+"
+GradientBoosting,RandomUnderSampler,"{'classifier__learning_rate': 0.1, 'classifier__max_depth': 3, 'classifier__n_estimators': 200}","              precision    recall  f1-score   support
+
+         0.0       0.98      0.82      0.89      5105
+         1.0       0.31      0.81      0.45       511
+
+    accuracy                           0.82      5616
+   macro avg       0.64      0.81      0.67      5616
+weighted avg       0.92      0.82      0.85      5616
+"
+GradientBoosting,RandomUnderSampler,"{'classifier__learning_rate': 0.1, 'classifier__max_depth': 5, 'classifier__n_estimators': 50}","              precision    recall  f1-score   support
+
+         0.0       0.98      0.82      0.89      5105
+         1.0       0.31      0.80      0.45       511
+
+    accuracy                           0.82      5616
+   macro avg       0.64      0.81      0.67      5616
+weighted avg       0.92      0.82      0.85      5616
+"
+GradientBoosting,RandomUnderSampler,"{'classifier__learning_rate': 0.1, 'classifier__max_depth': 5, 'classifier__n_estimators': 100}","              precision    recall  f1-score   support
+
+         0.0       0.98      0.82      0.89      5105
+         1.0       0.31      0.81      0.45       511
+
+    accuracy                           0.82      5616
+   macro avg       0.64      0.81      0.67      5616
+weighted avg       0.92      0.82      0.85      5616
+"
+GradientBoosting,RandomUnderSampler,"{'classifier__learning_rate': 0.1, 'classifier__max_depth': 5, 'classifier__n_estimators': 200}","              precision    recall  f1-score   support
+
+         0.0       0.98      0.82      0.89      5105
+         1.0       0.30      0.79      0.44       511
+
+    accuracy                           0.82      5616
+   macro avg       0.64      0.80      0.66      5616
+weighted avg       0.91      0.82      0.85      5616
+"
+GradientBoosting,RandomUnderSampler,"{'classifier__learning_rate': 0.1, 'classifier__max_depth': 7, 'classifier__n_estimators': 50}","              precision    recall  f1-score   support
+
+         0.0       0.98      0.81      0.88      5105
+         1.0       0.30      0.81      0.43       511
+
+    accuracy                           0.81      5616
+   macro avg       0.64      0.81      0.66      5616
+weighted avg       0.91      0.81      0.84      5616
+"
+GradientBoosting,RandomUnderSampler,"{'classifier__learning_rate': 0.1, 'classifier__max_depth': 7, 'classifier__n_estimators': 100}","              precision    recall  f1-score   support
+
+         0.0       0.98      0.81      0.89      5105
+         1.0       0.30      0.81      0.44       511
+
+    accuracy                           0.81      5616
+   macro avg       0.64      0.81      0.66      5616
+weighted avg       0.92      0.81      0.85      5616
+"
+GradientBoosting,RandomUnderSampler,"{'classifier__learning_rate': 0.1, 'classifier__max_depth': 7, 'classifier__n_estimators': 200}","              precision    recall  f1-score   support
+
+         0.0       0.98      0.82      0.89      5105
+         1.0       0.30      0.79      0.44       511
+
+    accuracy                           0.81      5616
+   macro avg       0.64      0.80      0.66      5616
+weighted avg       0.91      0.81      0.85      5616
+"
+GradientBoosting,RandomUnderSampler,"{'classifier__learning_rate': 0.2, 'classifier__max_depth': 3, 'classifier__n_estimators': 50}","              precision    recall  f1-score   support
+
+         0.0       0.98      0.82      0.89      5105
+         1.0       0.31      0.80      0.45       511
+
+    accuracy                           0.82      5616
+   macro avg       0.64      0.81      0.67      5616
+weighted avg       0.92      0.82      0.85      5616
+"
+GradientBoosting,RandomUnderSampler,"{'classifier__learning_rate': 0.2, 'classifier__max_depth': 3, 'classifier__n_estimators': 100}","              precision    recall  f1-score   support
+
+         0.0       0.98      0.82      0.89      5105
+         1.0       0.30      0.80      0.44       511
+
+    accuracy                           0.82      5616
+   macro avg       0.64      0.81      0.67      5616
+weighted avg       0.91      0.82      0.85      5616
+"
+GradientBoosting,RandomUnderSampler,"{'classifier__learning_rate': 0.2, 'classifier__max_depth': 3, 'classifier__n_estimators': 200}","              precision    recall  f1-score   support
+
+         0.0       0.98      0.81      0.89      5105
+         1.0       0.30      0.81      0.44       511
+
+    accuracy                           0.81      5616
+   macro avg       0.64      0.81      0.66      5616
+weighted avg       0.92      0.81      0.85      5616
+"
+GradientBoosting,RandomUnderSampler,"{'classifier__learning_rate': 0.2, 'classifier__max_depth': 5, 'classifier__n_estimators': 50}","              precision    recall  f1-score   support
+
+         0.0       0.98      0.82      0.89      5105
+         1.0       0.31      0.81      0.45       511
+
+    accuracy                           0.82      5616
+   macro avg       0.64      0.81      0.67      5616
+weighted avg       0.92      0.82      0.85      5616
+"
+GradientBoosting,RandomUnderSampler,"{'classifier__learning_rate': 0.2, 'classifier__max_depth': 5, 'classifier__n_estimators': 100}","              precision    recall  f1-score   support
+
+         0.0       0.98      0.81      0.89      5105
+         1.0       0.30      0.83      0.44       511
+
+    accuracy                           0.81      5616
+   macro avg       0.64      0.82      0.66      5616
+weighted avg       0.92      0.81      0.85      5616
+"
+GradientBoosting,RandomUnderSampler,"{'classifier__learning_rate': 0.2, 'classifier__max_depth': 5, 'classifier__n_estimators': 200}","              precision    recall  f1-score   support
+
+         0.0       0.98      0.82      0.89      5105
+         1.0       0.32      0.82      0.46       511
+
+    accuracy                           0.82      5616
+   macro avg       0.65      0.82      0.67      5616
+weighted avg       0.92      0.82      0.85      5616
+"
+GradientBoosting,RandomUnderSampler,"{'classifier__learning_rate': 0.2, 'classifier__max_depth': 7, 'classifier__n_estimators': 50}","              precision    recall  f1-score   support
+
+         0.0       0.97      0.81      0.89      5105
+         1.0       0.30      0.79      0.43       511
+
+    accuracy                           0.81      5616
+   macro avg       0.64      0.80      0.66      5616
+weighted avg       0.91      0.81      0.85      5616
+"
+GradientBoosting,RandomUnderSampler,"{'classifier__learning_rate': 0.2, 'classifier__max_depth': 7, 'classifier__n_estimators': 100}","              precision    recall  f1-score   support
+
+         0.0       0.98      0.82      0.89      5105
+         1.0       0.30      0.79      0.44       511
+
+    accuracy                           0.82      5616
+   macro avg       0.64      0.81      0.66      5616
+weighted avg       0.91      0.82      0.85      5616
+"
+GradientBoosting,RandomUnderSampler,"{'classifier__learning_rate': 0.2, 'classifier__max_depth': 7, 'classifier__n_estimators': 200}","              precision    recall  f1-score   support
+
+         0.0       0.98      0.82      0.89      5105
+         1.0       0.30      0.79      0.44       511
+
+    accuracy                           0.82      5616
+   macro avg       0.64      0.80      0.66      5616
+weighted avg       0.91      0.82      0.85      5616
+"
