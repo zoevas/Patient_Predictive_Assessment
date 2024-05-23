@@ -13,6 +13,8 @@ Four different target predictions are made:
 The GridSearch folder contains the fine tuning of the four different models. The user inputs in the prompt which target class models wants to be fine tuned.
 The fine tuning results are saved in csv files, and then the models with the best hyperparameters are trained in 'Final Models' folder.
 
+Those models are developed under the H2020 European project NIGHTINGALE: https://www.nightingale-triage.eu/
+
 ##  Versions
 python 3.8
 ```
