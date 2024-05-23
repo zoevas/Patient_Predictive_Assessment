@@ -12,3 +12,14 @@ Four different target predictions are made:
 
 The GridSearch folder contains the fine tuning of the four different models. The user inputs in the prompt which target class models wants to be fine tuned.
 The fine tuning results are saved in csv files, and then the models with the best hyperparameters are trained in 'Final Models' folder.
+
+##  Versions
+python 3.8
+```
+cloudpickle 2.2.1
+scikit-learn 1.3.0
+imblearn 0.0
+pandas 10.2.0
+shap 0.43.0
+seaborn 0.13.2
+```
